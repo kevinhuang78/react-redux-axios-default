@@ -11,7 +11,7 @@ import logger from 'redux-logger';
 
 export const store = createStore(
     rootReducer,
-    applyMiddleware(logger, thunk)
+    process.env.NODE_ENV === "production" ? applyMiddleware(thunk) : applyMiddleware(logger, thunk)
 );
 
 ReactDOM.render(
