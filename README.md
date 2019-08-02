@@ -1,3 +1,12 @@
+# Default React Project
+
+This project was made to create a clean default project with React and Axios using these technologies :
+- React
+- Redux
+- Axios
+- Sass
+- Prettier
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
