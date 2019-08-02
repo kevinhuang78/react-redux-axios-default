@@ -1,13 +1,13 @@
-import 'react-app-polyfill/ie11';
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
-import {Provider} from "react-redux";
-import {applyMiddleware, createStore} from "redux";
+import "react-app-polyfill/ie11";
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
+import { Provider } from "react-redux";
+import { applyMiddleware, createStore } from "redux";
 import rootReducer from "./reducers";
 import thunk from "redux-thunk";
-import logger from 'redux-logger';
+import logger from "redux-logger";
 
 export const store = createStore(
     rootReducer,
@@ -18,7 +18,7 @@ ReactDOM.render(
     <Provider store={store}>
         <App />
     </Provider>,
-    document.getElementById('root')
+    document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change

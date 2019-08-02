@@ -26,7 +26,7 @@ export default (state = initialState, action) => {
                 commentsLoading: false,
                 commentsError: action.data
             };
-        default :
+        default:
             return state;
     }
-}
+};

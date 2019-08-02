@@ -1,6 +1,6 @@
-import './sass/index.scss';
-import React from 'react';
-import { Route, BrowserRouter, Switch } from 'react-router-dom';
+import "./sass/index.scss";
+import React from "react";
+import { Route, BrowserRouter, Switch } from "react-router-dom";
 import NotFoundExceptionScreen from "./screens/Exceptions/NotFoundExceptionScreen";
 import HomeScreen from "./screens/HomeScreen";
 
